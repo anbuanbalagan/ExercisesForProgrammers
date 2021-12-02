@@ -16,7 +16,7 @@ namespace ExercisesforProgrammers
 			Console.Write("How many Pizzas? ");
 			Pizzas = int.Parse(Console.ReadLine());
 			Console.WriteLine("");
-
+			 
 			Console.WriteLine(People + " people with " + Pizzas + " pizzas");
 			Console.WriteLine("Each person gets " + Pizzas + " pieces of pizza.");
 			Console.WriteLine("There are " + (People % Pizzas) + " leftover pieces.");
