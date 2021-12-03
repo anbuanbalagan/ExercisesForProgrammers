@@ -8,20 +8,20 @@ namespace ExercisesforProgrammers
 	{
 		public void Solution06()
 		{
-			int Age, RetireAge;
+			int nAge, nRetireAge;
 			Console.Write("What is your Current Age? ");			
-			Age = int.Parse(Console.ReadLine());
+			nAge = int.Parse(Console.ReadLine());
 			Console.WriteLine(" ");
 
 			Console.Write("At What Age would you like to Retire? ");			
-			RetireAge = int.Parse(Console.ReadLine());
+			nRetireAge = int.Parse(Console.ReadLine());
 			Console.WriteLine(" ");
-			int Work, CurrentYear = 2021;
-			Work = RetireAge - Age;
+			int nWork, nCurrentYear = 2021;
+			nWork = nRetireAge - nAge;
 
-			Console.WriteLine("You have " + Work + " years left until you can Retire.");
+			Console.WriteLine("You have " + nWork + " years left until you can Retire.");
 			Console.WriteLine(" ");
-			Console.WriteLine("It's " + CurrentYear + " ,so you can retire in " +(CurrentYear + Work)+ ".");
+			Console.WriteLine("It's " + nCurrentYear + " ,so you can retire in " +(nCurrentYear + nWork)+ ".");
 
 		}
 	}

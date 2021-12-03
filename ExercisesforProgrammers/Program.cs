@@ -16,7 +16,7 @@ namespace ExercisesforProgrammers
 			new Exercise02().Solution02();*/
 
 			Console.WriteLine("---------------Exercise-03---------------");
-			new Exercise09().Solution09();
+			new Exercise16().Solution16();
 		}
 	}
 }

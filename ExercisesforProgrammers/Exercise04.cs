@@ -8,24 +8,24 @@ namespace ExercisesforProgrammers
 	{
 		public void Solution04()
 		{
-			string Noun, Verb, Adjective, Adverb;
+			string strNoun, strVerb, strAdjective, strAdverb;
 			Console.Write("Enter a Noun: ");
-			Noun = Console.ReadLine();
+			strNoun = Console.ReadLine();
 			Console.WriteLine("");
 
 			Console.Write("Enter a Verb: ");
-			Verb = Console.ReadLine();
+			strVerb = Console.ReadLine();
 			Console.WriteLine("");
 
 			Console.Write("Enter a Adjective: ");
-			Adjective = Console.ReadLine();
+			strAdjective = Console.ReadLine();
 			Console.WriteLine("");
 
 			Console.Write("Enter a Adverb: ");
-			Adverb = Console.ReadLine();
+			strAdverb = Console.ReadLine();
 			Console.WriteLine("");
 
-			Console.WriteLine("Do you " + Verb + " your " + Adjective + " " + Noun + " " + Adverb + "? That's Hilarious!");
+			Console.WriteLine("Do you " + strVerb + " your " + strAdjective + " " + strNoun + " " + strAdverb + "? That's Hilarious!");
 			Console.WriteLine("\n");
 
 		}

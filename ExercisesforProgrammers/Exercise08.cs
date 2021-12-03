@@ -8,18 +8,18 @@ namespace ExercisesforProgrammers
 	{
 		public void Solution08()
 		{
-			int People, Pizzas;
+			int nPeople, nPizzas;
 			Console.Write("How many People? ");
-			People = int.Parse(Console.ReadLine());
+			nPeople = int.Parse(Console.ReadLine());
 			Console.WriteLine("");
 
 			Console.Write("How many Pizzas? ");
-			Pizzas = int.Parse(Console.ReadLine());
+			nPizzas = int.Parse(Console.ReadLine());
 			Console.WriteLine("");
 			 
-			Console.WriteLine(People + " people with " + Pizzas + " pizzas");
-			Console.WriteLine("Each person gets " + Pizzas + " pieces of pizza.");
-			Console.WriteLine("There are " + (People % Pizzas) + " leftover pieces.");
+			Console.WriteLine(nPeople + " people with " + nPizzas + " pizzas");
+			Console.WriteLine("Each person gets " + nPizzas + " pieces of pizza.");
+			Console.WriteLine("There are " + (nPeople % nPizzas) + " leftover pieces.");
 		}
 	}
 }

@@ -8,21 +8,22 @@ namespace ExercisesforProgrammers
 	{
 		public void Solution09()
 		{
-			int Length, Width, Area,Gallons;
-			Length = int.Parse(Console.ReadLine());
-			Width = int.Parse(Console.ReadLine());
+			int nLength, nWidth, nArea,nGallons;
+			nLength = int.Parse(Console.ReadLine());
+			nWidth = int.Parse(Console.ReadLine());
 
-			Area = Length * Width;
+			nArea = nLength * nWidth;
 
-			if(Area % 350 == 0)
+			if(nArea % 350 == 0)
 			{
-				Gallons = Area / 350;
+				nGallons = nArea / 350;
 			}
 			else
 			{
-				Gallons = (Area / 350) + 1;
+				nGallons = (nArea / 350) + 1;
 			}
-			Console.WriteLine("You will need to purchase " + Gallons + " gallons of paint to cover " + Area + " square feet.");
+
+			Console.WriteLine("You will need to purchase " + nGallons + " gallons of paint to cover " + nArea + " square feet.");
 		}
 	}
 }

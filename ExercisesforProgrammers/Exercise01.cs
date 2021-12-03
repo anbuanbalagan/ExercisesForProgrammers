@@ -8,10 +8,10 @@ namespace ExercisesforProgrammers
 	{
 		public void Solution01()
 		{
-			string Name;
+			string strName;
 			Console.Write("What is your name? ");			
-			Name = Console.ReadLine();
-			Console.Write("Hello, " +Name+ ", nice to meet you!");
+			strName = Console.ReadLine();
+			Console.Write("Hello, " +strName+ ", nice to meet you!");
 			Console.WriteLine("\n");
 		}
 	}

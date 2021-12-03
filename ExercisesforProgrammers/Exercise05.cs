@@ -8,19 +8,19 @@ namespace ExercisesforProgrammers
 	{
 		public void Solution05()
 		{
-			int FirstNumber, SecondNumber;
+			int nFirstNumber, nSecondNumber;
 			Console.Write("What is the First Number? ");
-			FirstNumber = int.Parse(Console.ReadLine());
+			nFirstNumber = int.Parse(Console.ReadLine());
 			Console.Write("\n");
 
 			Console.Write("What is the Second Number? ");
-			SecondNumber = int.Parse(Console.ReadLine());
+			nSecondNumber = int.Parse(Console.ReadLine());
 			Console.Write("\n");
 
-			Console.WriteLine(FirstNumber + " + " + SecondNumber + " = " +(FirstNumber + SecondNumber));
-			Console.WriteLine(FirstNumber + " - " + SecondNumber + " = " +(FirstNumber - SecondNumber));
-			Console.WriteLine(FirstNumber + " * " + SecondNumber + " = " +(FirstNumber * SecondNumber));
-			Console.WriteLine(FirstNumber + " / " + SecondNumber + " = " +(FirstNumber / SecondNumber));
+			Console.WriteLine(nFirstNumber + " + " + nSecondNumber + " = " +(nFirstNumber + nSecondNumber));
+			Console.WriteLine(nFirstNumber + " - " + nSecondNumber + " = " +(nFirstNumber - nSecondNumber));
+			Console.WriteLine(nFirstNumber + " * " + nSecondNumber + " = " +(nFirstNumber * nSecondNumber));
+			Console.WriteLine(nFirstNumber + " / " + nSecondNumber + " = " +(nFirstNumber / nSecondNumber));
 		}
 	}
 }

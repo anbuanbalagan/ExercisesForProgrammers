@@ -8,23 +8,23 @@ namespace ExercisesforProgrammers
 	{
 		public void Solution07()
 		{
-			int Length, Width, Area;
-			float F = 0.09290304f;  // to convert Square feet into Square meter 
+			int nLength, nWidth, nArea;
+			float fSquaremeter,fConversion = 0.09290304f;  // to convert Square feet into Square meter 
 
 			Console.Write("What is the Length of the Room in feet? ");
-			Length = int.Parse(Console.ReadLine());
+			nLength = int.Parse(Console.ReadLine());
 			Console.WriteLine(" ");
 
 			Console.Write("What is the Width of the Room in feet? ");
-			Width = int.Parse(Console.ReadLine());
+			nWidth = int.Parse(Console.ReadLine());
 			Console.WriteLine(" ");
 
-			Console.WriteLine("You entered dimensions of " + Length + " feet by " + Width + " feet.");
+			Console.WriteLine("You entered dimensions of " + nLength + " feet by " + nWidth + " feet.");
 			Console.WriteLine("\nThe Area is ");
-			Area = Length * Width;
+			nArea = nLength * nWidth;
 
-			float Squaremeter = Area * F;
-			Console.WriteLine(Squaremeter + " square meters");
+			fSquaremeter = nArea * fConversion;
+			Console.WriteLine(fSquaremeter + " square meters");
 		}
 	}
 }
