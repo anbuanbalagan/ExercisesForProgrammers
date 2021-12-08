@@ -19,29 +19,32 @@ namespace ExercisesforProgrammers
 
 			if(strState == "WI" || strState == "wi" || strState == "Wi" || strState == "wI" || strState == "Wisconsin" || strState == "WISCONSIN")
 			{
-				dTotal = (dAmount * 5.50) / 100;
+				dTotal = (dAmount * 5.05) / 100;
 				dTax = Math.Round(dTotal, 2);
 				Console.WriteLine("The Subtotal is $" + dAmount);
 				Console.WriteLine("The Tax is $" + dTax);
-				Console.WriteLine("The Total is $" + (dAmount + dTax));				
+				Console.WriteLine("The Total is $" + (dAmount + dTax));
+				Environment.Exit(0);
 			}
 
 			else if(strState == "EC" || strState == "ec" || strState == "Ec" || strState == "eC" || strState == "Eau Claire" || strState == "eau claire" || strState == "EAU CLAIRE")
 			{
-				dTotal = (dAmount * 5.55) / 100;
+				dTotal = (dAmount * 5.055) / 100;
 				dTax = Math.Round(dTotal, 2);
 				Console.WriteLine("The Subtotal is $" + dAmount);
 				Console.WriteLine("The Tax is $" + dTax);
 				Console.WriteLine("The Total is $" + (dAmount + dTax));
+				Environment.Exit(0);
 			}
 
 			else if(strState == "DN" || strState == "dn" || strState == "Dn" || strState == "dN" || strState == "Dunn" || strState == "dunn" || strState == "DUNN")
 			{
-				dTotal = (dAmount * 5.59) / 100;
+				dTotal = (dAmount * 5.054) / 100;
 				dTax = Math.Round(dTotal, 2);
 				Console.WriteLine("The Subtotal is $" + dAmount);
 				Console.WriteLine("The Tax is $" + dTax);
 				Console.WriteLine("The Total is $" + (dAmount + dTax));
+				Environment.Exit(0);
 			}
 
 			else if(strState == "IL" || strState == "il" || strState == "Il" || strState == "iL" || strState == "Illinois" || strState == "illinois" || strState == "EAU CLAIRE")
@@ -51,8 +54,8 @@ namespace ExercisesforProgrammers
 				Console.WriteLine("The Subtotal is $" + dAmount);
 				Console.WriteLine("The Tax is $" + dTax);
 				Console.WriteLine("The Total is $" + (dAmount + dTax));
+				Environment.Exit(0);
 			}
-
 			Console.WriteLine("The Total is $" + dAmount);
 		}
 	}
