@@ -6,7 +6,7 @@ namespace ExercisesforProgrammers
 	{
 		static void Main(string[] args)
 		{
-			new Exercise24().Solution24();
+			new Exercise31().Solution31();
 
 			//Exercise01 object1 =  new Exercise01();
 			//object1.Solution1();
@@ -14,7 +14,7 @@ namespace ExercisesforProgrammers
 			/*Console.WriteLine("--------------------Exercise-01 - Saying Hello---------------");
 			new Exercise01().Solution01();
 
-			Console.WriteLine("----------Exercise-02 - Counting the Number of Characters----------");
+			Console.WriteLine("-------------Exercise-02 - Counting the Number of Characters------------");
 			new Exercise02().Solution02();
 
 			Console.WriteLine("-------------------Exercise-03 - Printing Quotes--------------");
@@ -57,7 +57,40 @@ namespace ExercisesforProgrammers
 			new Exercise15().Solution15();
 
 			Console.WriteLine("--------------------Exercise-16 - Legal Driving Age-------------------");
-			new Exercise16().Solution16();*/			
+			new Exercise16().Solution16();
+
+			Console.WriteLine("------------------Exercise-17 - Blood Alcohol Calculator-----------------");
+			new Exercise17().Solution17();
+
+			Console.WriteLine("--------------------Exercise-18 - Temperature Converter-------------------");
+			new Exercise18().Solution18();
+
+			Console.WriteLine("--------------------Exercise-19 - BMI Calculator-------------------");
+			new Exercise19().Solution19();
+
+			Console.WriteLine("----------------Exercise-20 - Multistate Sales Tax Calculator---------------");
+			new Exercise20().Solution20();
+
+			Console.WriteLine("--------------------Exercise-21 - Numbers to Names-------------------");
+			new Exercise21().Solution21();
+			
+			Console.WriteLine("--------------------Exercise-22 - Comparing Numbers-------------------");
+			new Exercise22().Solution22();
+			
+			Console.WriteLine("--------------------Exercise-23 - Troubleshooting Car Issues-------------------");
+			new Exercise23().Solution23();
+
+			Console.WriteLine("--------------------Exercise-24 - Anagram Checker-------------------");
+			new Exercise24().Solution24();
+
+			Console.WriteLine("------------------Exercise-25 - Password Strength Indicator-----------------");
+			new Exercise25().Solution25();
+
+			Console.WriteLine("----------------Exercise-26 - Months to Pay Off a Credit Card----------------");
+			new Exercise26().Solution26();
+
+			Console.WriteLine("--------------------Exercise-27 - Validating Inputs-------------------");
+			new Exercise27().Solution27();*/
 		}
 	}
 }

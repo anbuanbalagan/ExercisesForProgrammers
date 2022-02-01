@@ -1,66 +1,45 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Text.RegularExpressions;
 
 namespace ExercisesforProgrammers
 {
 	class Exercise25
 	{
-		int nNumber = 0;
 		public void Solution25()
 		{
 			string strPassword;
 			Console.WriteLine("Enter the Password");
 			strPassword = Console.ReadLine();
-
 			passwordValidator(strPassword);
 		}
 
 		public void passwordValidator(string pass)
 		{
-			string password = pass;
-			int nLen = password.Length;
+			var password = pass;
+			int nLength = password.Length;
+			var hasNumber = new Regex(@"[0-9]+");
+			var hasChar = new Regex(@"[A-Za-z]+");
+			var hasSymbols = new Regex(@"[!@#$%^&*()_+=\[{\]};:<>|./?,-]");
 
-			for(int i=0;i< nLen; i++)
+			if(hasNumber.IsMatch(password) && nLength < 8)
 			{
-				if(char.IsDigit(password[i]) && nLen < 8)
-				{
-					nNumber = 1;
-				}
-				else if(char.IsLetter(password[i]) && nLen < 8)
-				{
-					nNumber = 2;
-				}
-				else if(nLen >= 8)
-				{
-					if(char.IsLetterOrDigit(password[i]))
-					{
-						nNumber = 3;
-					}
-					else
-					{
-						nNumber = 4;
-					}
-				}
+				Console.WriteLine("Very Weak Password");
 			}
 
-			switch(nNumber)
+			else if(hasChar.IsMatch(password) && nLength < 8)
 			{
-				case 1:
-					Console.WriteLine("Very Weak Pass");
-					break;
-				case 2:
-					Console.WriteLine("Weak Pass");
-					break;
-				case 3:
-					Console.WriteLine("Strong Pass");
-					break;
-				case 4:
-					Console.WriteLine("Very Strong Pass");
-					break;
-				default:
-					break;
+				Console.WriteLine("Weak Password");
 			}
+
+			else if(hasNumber.IsMatch(password) && hasChar.IsMatch(password) && hasSymbols.IsMatch(password) && nLength >= 8)
+			{
+				Console.WriteLine("Very Strong Pass");
+			}
+
+			else if(hasNumber.IsMatch(password) && hasChar.IsMatch(password) && nLength >= 8)
+			{
+				Console.WriteLine("Strong Password");
+			}					
 		}
 	}
 }
