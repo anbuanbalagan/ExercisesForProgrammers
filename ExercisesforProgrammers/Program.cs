@@ -6,7 +6,7 @@ namespace ExercisesforProgrammers
 	{
 		static void Main(string[] args)
 		{
-			new Exercise32().Solution32();
+			new Exercise34().Solution34();
 
 			//Exercise01 object1 =  new Exercise01();
 			//object1.Solution1();
