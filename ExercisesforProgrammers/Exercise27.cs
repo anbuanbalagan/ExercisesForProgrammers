@@ -27,14 +27,14 @@ namespace ExercisesforProgrammers
 
 			if(num == 1)
 			{
-				Console.WriteLine("Invalid ZIP code.");
+				Console.WriteLine("\nInvalid ZIP code.");
 			}
 
 			bool id = ValidateEmployeeID(strEmployeeID);
 
 			if(val == "1" && num == 0 && id )
 			{
-				Console.WriteLine("There were no Errors found.");
+				Console.WriteLine("\nThere were no Errors found.");
 			}
 		}
 
@@ -51,16 +51,27 @@ namespace ExercisesforProgrammers
 			{
 				if(hasChar.IsMatch(strFirstName) && nLength1 < 2)
 				{
-					Console.WriteLine(strFirstName + " is not a valid FirstName. It is too short");
+					Console.WriteLine("\n" + strFirstName + " is not a valid FirstName. It is too short");
+				}
+				else if(strFirstName == String.Empty)
+				{
+					Console.WriteLine("\nThe FirstName must be filled in.");
 				}
 
 				if(hasChar.IsMatch(strLastName) && nLength2 < 2)
 				{
 					Console.WriteLine(strLastName + " is not a valid LastName. It is too short");
 				}
+				else if(strLastName == String.Empty)
+				{
+					Console.WriteLine("\nThe LastName must be filled in.");
+				}
 				valid = "0";
 			}
-			valid = "1";
+			else
+			{
+				valid = "1";
+			}
 			return valid;
 		}
 
@@ -75,7 +86,7 @@ namespace ExercisesforProgrammers
 
 			else
 			{
-				Console.WriteLine(strEmployeeID + " is not a valid ID.");
+				Console.WriteLine("\n" + strEmployeeID + " is not a valid ID.");
 				return false;
 			}
 		}

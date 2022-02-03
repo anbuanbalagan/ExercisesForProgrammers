@@ -6,9 +6,9 @@ namespace ExercisesforProgrammers
 	{
 		static void Main(string[] args)
 		{
-			/*new Exercise34().Solution34();
+			new Exercise27().Solution27();
 
-			Exercise01 object1 =  new Exercise01();
+			/*Exercise01 object1 =  new Exercise01();
 			object1.Solution1();
 
 			Console.WriteLine("--------------------Exercise-01 - Saying Hello---------------");
