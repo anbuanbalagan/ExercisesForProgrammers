@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ExercisesforProgrammers
 {
@@ -17,16 +15,14 @@ namespace ExercisesforProgrammers
 			{
 				Console.Write("Enter the price of item " + (i+1) +" : ");
 				nItem[i] = int.Parse(Console.ReadLine());
-				Console.WriteLine(" ");
 
 				Console.Write("Enter the quantity of item " + (i+1) + " : ");
 				nQuantity[i] = int.Parse(Console.ReadLine());
-				Console.WriteLine(" ");
 
 				fsum += (nItem[i] * nQuantity[i]);
 			}
 
-			Console.WriteLine("Subtotal: $ " + fsum);
+			Console.WriteLine("\nSubtotal: $ " + fsum);
 			fTax = (fsum * fTaxPercent) / 100;
 			Console.WriteLine("Tax: $ " + fTax);
 			fsum += fTax;

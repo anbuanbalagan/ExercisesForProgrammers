@@ -7,7 +7,7 @@ namespace ExercisesforProgrammers
 		public void Solution34()
 		{
 			int nInput, i = 0, nPosition = -1;
-			Console.WriteLine("Enter the number of Employee :");
+			Console.Write("Enter the number of Employee :");
 			nInput = int.Parse(Console.ReadLine());
 
 			string[] strEmployeeName = new string[nInput];
@@ -25,8 +25,9 @@ namespace ExercisesforProgrammers
 				Console.WriteLine(strEmployeeName[i]);
 			}
 
-			Console.Write("Enter the Employee name to remove: ");
+			Console.Write("\nEnter the Employee name to remove: ");
 			string strRemoveName = Console.ReadLine();
+			Console.WriteLine(" ");
 
 			for(i = 0; i < nInput; i++)
 			{
@@ -48,7 +49,7 @@ namespace ExercisesforProgrammers
 					strEmployeeName[i] = strEmployeeName[i + 1];
 				}
 
-				Console.WriteLine("There are " + --nInput + " Employees.");
+				Console.WriteLine("Now there are " + --nInput + " Employees.");
 
 				for(i = 0; i < nInput; i++)
 				{

@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ExercisesforProgrammers
 {
@@ -11,9 +9,8 @@ namespace ExercisesforProgrammers
 			int nAge;
 			Console.Write("What is your Age? ");
 			nAge = int.Parse(Console.ReadLine());
-			Console.WriteLine(" ");	
 						
-			Console.WriteLine((nAge >= 16) ?"You are old enough to legally drive." : "You are not old enough to legally drive.");			
+			Console.WriteLine((nAge >= 16) ?"\nYou are old enough to legally drive." : "\nYou are not old enough to legally drive.");			
 		}
 	}
 }

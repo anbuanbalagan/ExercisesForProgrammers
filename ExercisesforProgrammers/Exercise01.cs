@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ExercisesforProgrammers
 {
@@ -11,8 +9,7 @@ namespace ExercisesforProgrammers
 			string strName;
 			Console.Write("What is your name? ");			
 			strName = Console.ReadLine();
-			Console.Write("Hello, " +strName+ ", nice to meet you!");
-			Console.WriteLine("\n");
+			Console.Write("\nHello, " +strName+ ", nice to meet you!\n");
 		}
 	}
 }

@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ExercisesforProgrammers
 {
@@ -15,51 +13,51 @@ namespace ExercisesforProgrammers
 			switch(nNumber)
 			{
 				case 1:
-					Console.WriteLine("The name of the Month is January");
+					Console.WriteLine("\nThe name of the Month is January");
 					break;
 
 				case 2:
-					Console.WriteLine("The name of the Month is February");
+					Console.WriteLine("\nThe name of the Month is February");
 					break;
 
 				case 3:
-					Console.WriteLine("The name of the Month is March");
+					Console.WriteLine("\nThe name of the Month is March");
 					break;
 
 				case 4:
-					Console.WriteLine("The name of the Month is April");
+					Console.WriteLine("\nThe name of the Month is April");
 					break;
 
 				case 5:
-					Console.WriteLine("The name of the Month is May");
+					Console.WriteLine("\nThe name of the Month is May");
 					break;
 
 				case 6:
-					Console.WriteLine("The name of the Month is June");
+					Console.WriteLine("\nThe name of the Month is June");
 					break;
 
 				case 7:
-					Console.WriteLine("The name of the Month is July");
+					Console.WriteLine("\nThe name of the Month is July");
 					break;
 
 				case 8:
-					Console.WriteLine("The name of the Month is August");
+					Console.WriteLine("\nThe name of the Month is August");
 					break;
 
 				case 9:
-					Console.WriteLine("The name of the Month is September");
+					Console.WriteLine("\nThe name of the Month is September");
 					break;
 
 				case 10:
-					Console.WriteLine("The name of the Month is October");
+					Console.WriteLine("\nThe name of the Month is October");
 					break;
 
 				case 11:
-					Console.WriteLine("The name of the Month is November");
+					Console.WriteLine("\nThe name of the Month is November");
 					break;
 
 				case 12:
-					Console.WriteLine("The name of the Month is December");
+					Console.WriteLine("\nThe name of the Month is December");
 					break;
 
 				default: Console.WriteLine("Invalid Number");

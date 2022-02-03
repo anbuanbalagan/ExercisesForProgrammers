@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ExercisesforProgrammers
 {
@@ -11,9 +9,13 @@ namespace ExercisesforProgrammers
 			double nAlcoholConsumed, nWeight,nHours,nTotal = 0;
 			string strGender;
 
+			Console.Write("Enter Gender : ");
 			strGender = Console.ReadLine();
+			Console.Write("Enter the amount of Alcohol consumed in ounces : ");
 			nAlcoholConsumed = Convert.ToDouble(Console.ReadLine());
-			nWeight = Convert.ToDouble(Console.ReadLine());			
+			Console.Write("Enter the person weight : ");
+			nWeight = Convert.ToDouble(Console.ReadLine());
+			Console.Write("Enter the number of hours since last drink : ");
 			nHours = Convert.ToDouble(Console.ReadLine());
 
 			if(strGender == "Male")
@@ -28,11 +30,11 @@ namespace ExercisesforProgrammers
 
 			if(nTotal >= 0.08)
 			{
-				Console.WriteLine("Your BAC is " + nTotal + "\nIt is not Legal for you to Drive.");				
+				Console.WriteLine("\nYour BAC is " + nTotal + "\nIt is not Legal for you to Drive.");				
 			}
 			else
 			{
-				Console.WriteLine("Your BAC is " + nTotal + "\nIt is Legal for you to Drive.");
+				Console.WriteLine("\nYour BAC is " + nTotal + "\nIt is Legal for you to Drive.");
 			}
 		}
 	}

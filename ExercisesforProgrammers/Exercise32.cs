@@ -36,7 +36,8 @@ namespace ExercisesforProgrammers
                     Answer(randomNumber3);                    
                     break;
 
-				case 4:  return;
+				case 4: Environment.Exit(0);
+                    break;
 
                 default:
 					Console.WriteLine("Incorrect Option.");

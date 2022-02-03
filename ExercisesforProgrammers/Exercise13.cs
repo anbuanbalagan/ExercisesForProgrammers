@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ExercisesforProgrammers
 {
@@ -25,7 +23,7 @@ namespace ExercisesforProgrammers
 			nAnnualCompound = int.Parse(Console.ReadLine());
 
 			dTotal = dPrincipal * Math.Pow((1 + (RateofInterest / 100) / nAnnualCompound), (nAnnualCompound * nYears));
-			Console.WriteLine("$" +dPrincipal + " invested at " + RateofInterest + "% for " + nYears + " years compounded " + nAnnualCompound + " times per year is $" + Math.Round(dTotal,2) + ".");
+			Console.WriteLine("\n$" +dPrincipal + " invested at " + RateofInterest + "% for " + nYears + " years compounded " + nAnnualCompound + " times per year is $" + Math.Round(dTotal,2) + ".");
 		}
 	}
 }

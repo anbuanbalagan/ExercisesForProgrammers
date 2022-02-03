@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ExercisesforProgrammers
 {
@@ -35,7 +33,7 @@ namespace ExercisesforProgrammers
 				}
 				else
 				{
-					Console.WriteLine(" Does the car crank up but fail to start ?");
+					Console.WriteLine("Does the car crank up but fail to start ?");
 					cAnswer = Convert.ToChar(Console.ReadLine());
 					if(cAnswer == 'y')
 					{
@@ -57,6 +55,10 @@ namespace ExercisesforProgrammers
 							{
 								Console.WriteLine("Check to ensure the choke is opening and closing.");
 							}
+						}
+						else
+						{
+							Console.WriteLine("Ask Mechanic for help.");
 						}
 					}
 				}

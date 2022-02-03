@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ExercisesforProgrammers
 {
@@ -11,11 +9,9 @@ namespace ExercisesforProgrammers
 			int nFirstNumber, nSecondNumber;
 			Console.Write("What is the First Number? ");
 			nFirstNumber = int.Parse(Console.ReadLine());
-			Console.Write("\n");
 
 			Console.Write("What is the Second Number? ");
 			nSecondNumber = int.Parse(Console.ReadLine());
-			Console.Write("\n");
 
 			Console.WriteLine(nFirstNumber + " + " + nSecondNumber + " = " +(nFirstNumber + nSecondNumber));
 			Console.WriteLine(nFirstNumber + " - " + nSecondNumber + " = " +(nFirstNumber - nSecondNumber));

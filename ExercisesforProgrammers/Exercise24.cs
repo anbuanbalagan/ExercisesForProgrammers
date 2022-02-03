@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ExercisesforProgrammers
 {
@@ -14,7 +12,6 @@ namespace ExercisesforProgrammers
 			strName1 = Console.ReadLine();
 			Console.Write("Enter the Second string : ");
 			strName2 = Console.ReadLine();
-
 			isAnagram(strName1, strName2);
 		}
 
@@ -22,20 +19,18 @@ namespace ExercisesforProgrammers
 		{
 			char[] cone = one.ToLower().ToCharArray();
 			char[] ctwo = two.ToLower().ToCharArray();
-
 			Array.Sort(cone);
 			Array.Sort(ctwo);
-
 			string name1 = new string(cone);
 			string name2 = new string(ctwo);
 
 			if(name1 == name2)
 			{
-				Console.WriteLine('"' + one + '"' + " and " +'"' + two + '"' + " are Anagram.");
+				Console.WriteLine("\n" +'"' + one + '"' + " and " +'"' + two + '"' + " are Anagram.");
 			}
 			else
 			{
-				Console.WriteLine('"' + one + '"' + " and " + '"' + two + '"' + " are not Anagram.");
+				Console.WriteLine("\n" + '"' + one + '"' + " and " + '"' + two + '"' + " are not Anagram.");
 			}
 		}
 	}

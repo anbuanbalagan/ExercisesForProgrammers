@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ExercisesforProgrammers
 {
@@ -9,6 +7,7 @@ namespace ExercisesforProgrammers
 		public void Solution09()
 		{
 			int nLength, nWidth, nArea,nGallons;
+			Console.WriteLine("Enter the Length and Width of the room ");
 			nLength = int.Parse(Console.ReadLine());
 			nWidth = int.Parse(Console.ReadLine());
 
@@ -23,7 +22,7 @@ namespace ExercisesforProgrammers
 				nGallons = (nArea / 350) + 1;
 			}
 
-			Console.WriteLine("You will need to purchase " + nGallons + " gallons of paint to cover " + nArea + " square feet.");
+			Console.WriteLine("\nYou will need to purchase " + nGallons + " gallons of paint to cover " + nArea + " square feet.");
 		}
 	}
 }

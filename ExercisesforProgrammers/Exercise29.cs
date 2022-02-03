@@ -15,18 +15,18 @@ namespace ExercisesforProgrammers
 				if(!int.TryParse(Console.ReadLine(), out nRateofReturn))
 				{
 					num = true;
-					Console.WriteLine("Sorry. That's not a valid input.");
+					Console.WriteLine("\nSorry. That's not a valid input.");
 				}
 				else
 				{
 					if(nRateofReturn == 0)
 					{
-						Console.WriteLine("Can't Divide a number by 0");
+						Console.WriteLine("\nCan't Divide a number by 0");
 					}
 					else
 					{
 						nYears = 72 / nRateofReturn;
-						Console.WriteLine("It will take " + nYears + " years to double your initial investment.");
+						Console.WriteLine("\nIt will take " + nYears + " years to double your initial investment.");
 						num = false;
 					}
 				}

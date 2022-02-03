@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ExercisesforProgrammers
 {
@@ -11,22 +9,22 @@ namespace ExercisesforProgrammers
 			int[] array = new int[10];
 			int i;
 
-			Console.Write("Enter the First Number ");
+			Console.Write("Enter the First Number : ");
 			array[0] = int.Parse(Console.ReadLine());
 
-			Console.Write("Enter the Second Number ");
+			Console.Write("Enter the Second Number : ");
 			array[1] = int.Parse(Console.ReadLine());
 
-			Console.Write("Enter the Third Number ");
+			Console.Write("Enter the Third Number : ");
 			array[2] = int.Parse(Console.ReadLine());
 
-			Console.Write("Enter the Fourth Number ");
+			Console.Write("Enter the Fourth Number : ");
 			array[3] = int.Parse(Console.ReadLine());
 
-			Console.Write("Enter the Fifth Number ");
+			Console.Write("Enter the Fifth Number : ");
 			array[4] = int.Parse(Console.ReadLine());
 
-			Console.Write("Enter the Sixth Number ");
+			/*Console.Write("Enter the Sixth Number ");
 			array[5] = int.Parse(Console.ReadLine());
 
 			Console.Write("Enter the Seventh Number ");
@@ -39,8 +37,7 @@ namespace ExercisesforProgrammers
 			array[8] = int.Parse(Console.ReadLine());
 
 			Console.Write("Enter the Tenth Number ");
-			array[9] = int.Parse(Console.ReadLine());
-			Console.WriteLine(" ");
+			array[9] = int.Parse(Console.ReadLine());*/
 
 			int big = array[0];
 
@@ -51,7 +48,7 @@ namespace ExercisesforProgrammers
 					big = array[i];
 				}
 			}
-			Console.WriteLine("The Largest number is " + big);
+			Console.WriteLine("\nThe Largest number is " + big);
 		}
 	}
 }

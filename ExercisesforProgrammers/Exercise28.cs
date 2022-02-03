@@ -17,7 +17,7 @@ namespace ExercisesforProgrammers
 				nSum = nSum + nNumber;
 			}
 
-			Console.WriteLine("The Total is " +nSum);
+			Console.WriteLine("\nThe Total is " +nSum);
 		}			
 	}
 }

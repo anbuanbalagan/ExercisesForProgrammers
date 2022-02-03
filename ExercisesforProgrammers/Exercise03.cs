@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ExercisesforProgrammers
 {
@@ -11,12 +9,9 @@ namespace ExercisesforProgrammers
 			string strQuote,strName;
 			Console.Write("What is the Quote? ");
 			strQuote = Console.ReadLine();
-
-			Console.WriteLine(" ");
 			Console.Write("Who said it? ");
 			strName = Console.ReadLine();
-
-			Console.WriteLine(strName + " says, "+ '"' +strQuote+ '"');
+			Console.WriteLine("\n" + strName + " says, "+ '"' +strQuote+ '"');
 		}
 	}
 }

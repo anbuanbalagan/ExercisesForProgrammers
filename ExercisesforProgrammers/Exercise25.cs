@@ -23,22 +23,22 @@ namespace ExercisesforProgrammers
 
 			if(hasNumber.IsMatch(password) && nLength < 8)
 			{
-				Console.WriteLine("Very Weak Password");
+				Console.WriteLine("\nVery Weak Password");
 			}
 
 			else if(hasChar.IsMatch(password) && nLength < 8)
 			{
-				Console.WriteLine("Weak Password");
+				Console.WriteLine("\nWeak Password");
 			}
 
 			else if(hasNumber.IsMatch(password) && hasChar.IsMatch(password) && hasSymbols.IsMatch(password) && nLength >= 8)
 			{
-				Console.WriteLine("Very Strong Pass");
+				Console.WriteLine("\nVery Strong Pass");
 			}
 
 			else if(hasNumber.IsMatch(password) && hasChar.IsMatch(password) && nLength >= 8)
 			{
-				Console.WriteLine("Strong Password");
+				Console.WriteLine("\nStrong Password");
 			}					
 		}
 	}
